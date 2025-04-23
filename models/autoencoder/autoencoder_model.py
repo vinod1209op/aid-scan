@@ -1,6 +1,7 @@
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import LSTM, Dense
 
+
 def build_autoencoder(seq_length, num_features):
     model = Sequential([
         LSTM(128, input_shape=(seq_length, num_features), return_sequences=True),
