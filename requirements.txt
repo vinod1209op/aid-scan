@@ -1,0 +1,5 @@
+tensorflow
+transformers
+shap
+requests
+scikit-learn
